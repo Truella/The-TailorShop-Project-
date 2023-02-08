@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+				<title>Login page </title>
+				<link rel="stylesheet" href="./Css/styles.css">
+				<script src="https://kit.fontawesome.com/6e8aee6f47.js" crossorigin="anonymous"></script>
+</head>
+<body class="main-container login ">
+				<div>
+								<h1 id="h1">WELCOME BACK</h1>
+				</div>
+				<div class="form-container">
+								<h2>LOGIN</h2>
+								<p>ipsum rhoncus semper magna.</p>
+								<form action="" class="login-form">
+												<input type="text" placeholder="Username" id="username">
+												<ul>
+																<li class="hidden" id="UserReq">This field is required. </li>
+												</ul>
+												<input type="password" placeholder="Password" id="password">
+												<ul>
+																<li class="hidden" id="passwordReq">This field is required. </li>
+												</ul>
+												<button class="btn" id="login-btn"><a href="#">Log In</a></button>
+								</form>
+								<p>Don't have an account yet? <a href="SignUp.html" >Sign Up</a></p>
+				</div>
+				<section class="modal hidden" id="modal">
+								<i class="fa-solid fa-user-check fa-5x fa-beat"></i> 
+								<p>Login successful. </p>
+								
+				</section>
+				<div class="overlay hidden" id="overlay">
+								
+				</div>
+				<script src="loginScript.js"></script>
+</body>
+</html>
