@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+				<title>Login page </title>
+				<link rel="stylesheet" href="./Css/styles.css">
+				<script src="https://kit.fontawesome.com/6e8aee6f47.js" crossorigin="anonymous"></script>
+</head>
+<body class="main-container">
+				<div>
+								<h1>WELCOME! </h1>
+								
+				</div>
+				<div class="form-container">
+								<h2>Sign Up</h2>
+								<form>
+										   <input type="text" placeholder="Username" id="userName">
+										   <ul>
+										   				<li class="hidden" id="list-nine">Username cannot be less than three characters. </li>
+										   				<li class="hidden" id="list-one">This field is required. </li> 
+										   </ul>
+ 												<input type="tel" placeholder="Phone Number" id="tel">
+ 												 <ul>
+ 												 				<li class="hidden" id="list-two">This field is required. </li>
+ 												 				<li class="hidden" id="list-three">Cannot be less than ten digits </li>
+ 												 </ul>
+												<input type="password" placeholder="Password" id="password">
+												 <ul>
+												 				<li class="hidden" id="list-four">This field is required. </li>
+												 <li class="hidden" id="list-five">Password cannot be less than eight characters.</li>
+												 <li class="hidden" id="list-six">password must have numbers, alphabets and special signs.</li> 
+												 </ul>
+												<input type="password" placeholder="Confirm Password" id="Cpassword">
+												 <ul>
+												 				<li class="hidden" id="list-seven">This field is required. </li>
+												 <li class="hidden" id="list-eight">Passwords do not match. </li> 
+												 </ul>
+												
+												<button class="btn" id="signUp-btn"><a href="#">Sign Up</a></button>
+								</form>
+								<p>Already have an account? <a href="Login.html" >Log In</a></p>
+				</div>
+				<section class="modal hidden" id="modal">
+								<h2>Congrats!!! </h2>
+								<p>You have successfully registered an account with The Tailor Shop. </p>
+								<p>If you are not redirected to your dashboard in <span id="count">5</span> seconds, <a href="#" id="redirect">Click here</a></p>
+				</section>
+				<div class="overlay hidden" id="overlay">
+								
+				</div>
+				<script src="script.js">
+								
+				</script>
+</body>
+</html>
